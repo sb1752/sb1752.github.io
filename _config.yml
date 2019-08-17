@@ -1,0 +1,5 @@
+collections:
+  essays:
+    output: true
+  poems:
+    output: true
