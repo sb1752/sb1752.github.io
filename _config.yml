@@ -3,3 +3,6 @@ collections:
     output: true
   poems:
     output: true
+
+plugins:
+  - jekyll-titleize
