@@ -20,6 +20,8 @@ body { color: #272727; background: #EEEDE5; font-family: 'Montserrat', sans-seri
 a { color: #993300; }
 a:hover { background-color: #ddd; }
 
+i { font-style: italic; }
+
 a:visited { color: #993300; }
 
 p { line-height: 125%; margin-bottom: 10px; }
@@ -42,6 +44,8 @@ header nav a { margin-left: 15px; }
 .category h2 { margin-bottom: 20px; }
 
 .category-content { padding-left: 25px; }
+
+.content-piece { margin-bottom: 10px; }
 
 .post-title { margin-bottom: 30px; }
 .post-title h1 { margin-bottom: 10px; }

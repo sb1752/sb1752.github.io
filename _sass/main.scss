@@ -13,6 +13,10 @@ a {
   }
 }
 
+i {
+  font-style: italic;
+}
+
 a:visited {
   color: #993300;
 }
@@ -71,6 +75,10 @@ header nav a {
 
 .category-content {
   padding-left: 25px;
+}
+
+.content-piece {
+  margin-bottom: 10px;
 }
 
 .post-title {
