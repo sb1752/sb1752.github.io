@@ -1,0 +1,15 @@
+---
+title: Essays
+layout: default
+---
+
+<div class="category">
+  <h2>Essays</h2>
+  <div class="category-content">
+    {% for essay in site.essays %}
+      <div class="content-piece">
+        <h3><a href="{{ essay.url }}">{{ essay.title }}</a></h3>
+      </div>
+    {% endfor %}
+  </div>
+</div>
