@@ -5,8 +5,6 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 
 body { line-height: 1; }
 
-ol, ul { list-style: none; }
-
 blockquote, q { quotes: none; }
 
 blockquote:before, blockquote:after, q:before, q:after { content: ''; content: none; }
@@ -14,6 +12,10 @@ blockquote:before, blockquote:after, q:before, q:after { content: ''; content: n
 table { border-collapse: collapse; border-spacing: 0; }
 
 a { text-decoration: none; }
+
+sup, sub { vertical-align: baseline; position: relative; top: -0.4em; }
+
+sub { top: 0.4em; }
 
 body { color: #272727; background: #EEEDE5; font-family: 'Montserrat', sans-serif; }
 
@@ -51,3 +53,13 @@ header nav a { margin-left: 15px; }
 .post-title h1 { margin-bottom: 10px; }
 
 .post-content p { margin-bottom: 15px; }
+
+blockquote { font: 14px/22px; font-style: italic; margin-top: 10px; margin-bottom: 10px; margin-left: 25px; padding-left: 15px; border-left: 3px solid #ccc; }
+
+sup, sub { font-size: 12px; }
+
+.footnotes { padding-top: 15px; font-size: 14px; }
+.footnotes li > p { display: inline; }
+.footnotes li { margin-bottom: 10px; }
+
+ol { list-style-position: inside; }

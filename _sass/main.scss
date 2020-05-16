@@ -93,3 +93,31 @@ header nav a {
     margin-bottom: 15px;
   }
 }
+
+blockquote {
+  font: 14px/22px;
+  font-style: italic;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 25px;
+  padding-left: 15px;
+  border-left: 3px solid #ccc;
+}
+
+sup, sub {
+  font-size: 12px;
+}
+
+.footnotes {
+  padding-top: 15px;
+  font-size: 14px;
+  li > p {
+    display: inline;
+  }
+  li {
+    margin-bottom: 10px;
+  }
+}
+ol {
+  list-style-position: inside;
+}
