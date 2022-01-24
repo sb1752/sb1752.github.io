@@ -1,5 +1,4 @@
-# sb1752.github.io
-Personal website
+# <a href="http://sb1752.github.io" target="_blank">Personal Website</a>
 
 I've spent the last decade working in tech as a product manager and software engineer. I left in 2019 to explore my interests in science, philosophy and art. Some of my writings and meditations can be found here. I am now dedicating myself full-time to Bitcoin; as an engineer, investor, writer and educator.
 
