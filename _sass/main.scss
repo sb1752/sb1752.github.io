@@ -44,25 +44,25 @@ h2 {
   padding: 60px 30px 60px 30px;
 }
 
-header {
-  margin-bottom: 2em;
-
-  .top-section {
+.header {
     width: 600px;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
     margin-bottom: 0.5em;
-  }
 }
 
-header h1 {
+.subheader {
+  margin-bottom: 2em;
+}
+
+.header h1 {
   font-size: 2em;
   font-weight: 600;
 }
 
-header nav a {
+.header nav a {
   margin-left: 15px;
 }
 
