@@ -45,12 +45,16 @@ h2 {
 }
 
 header {
-  width: 600px;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
-  margin-bottom: 3em;
+  margin-bottom: 2em;
+
+  .top-section {
+    width: 600px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 0.5em;
+  }
 }
 
 header h1 {
