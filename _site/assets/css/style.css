@@ -34,9 +34,9 @@ h2 { font-size: 1.25em; color: #554; font-weight: 600; }
 
 .wrapper { max-width: 600px; margin: auto; padding: 60px 30px 60px 30px; }
 
-.header { width: 600px; display: flex; flex-direction: row; align-items: center; justify-content: space-between; margin-bottom: 0.5em; }
+.header { max-width: 600px; display: flex; flex-direction: row; align-items: center; justify-content: space-between; margin-bottom: 0.5em; }
 
-.subheader { margin-bottom: 2em; }
+.subheader { margin-bottom: 2em; display: flex; flex-direction: row; align-items: center; justify-content: space-between; }
 
 .header h1 { font-size: 2em; font-weight: 600; }
 

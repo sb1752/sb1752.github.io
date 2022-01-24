@@ -1,0 +1,16 @@
+---
+title: Superuser
+layout: default
+---
+
+<div class="category">
+  <h2>Superuser</h2>
+  <p>How to use Bitcoin and layered technologies as an advanced user. Level up as a sovereign individual.</p>
+  <div class="category-content">
+    {% for superuser in site.superuser %}
+      <div class="content-piece">
+        <h3><a href="{{ code.url }}">{{ superuser.title }}</a></h3>
+      </div>
+    {% endfor %}
+  </div>
+</div>

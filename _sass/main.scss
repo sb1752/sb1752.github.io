@@ -45,7 +45,7 @@ h2 {
 }
 
 .header {
-    width: 600px;
+    max-width: 600px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -55,6 +55,10 @@ h2 {
 
 .subheader {
   margin-bottom: 2em;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .header h1 {
