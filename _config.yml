@@ -3,3 +3,5 @@ collections:
     output: true
   poems:
     output: true
+
+exclude: ['README.md', 'Gemfile.lock', 'Gemfile']
