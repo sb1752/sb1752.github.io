@@ -7,7 +7,7 @@ layout: default
   <h2>Foundations</h2>
   <p>Below are various explanations of the Bitcoin protocol and the existing monetary system at a conceptual level. I will also address common criticisms here as these are often based on a poor understanding of Bitcoin, the monetary system, energy, climate change and history.</p>
   <div class="category-content">
-    {% for foundation in site.foundations %}
+    {% for foundation in site.foundations reversed %}
       <div class="content-piece">
         <h3><a href="{{ code.url }}">{{ foundation.title }}</a></h3>
       </div>

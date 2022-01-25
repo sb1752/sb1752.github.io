@@ -9,6 +9,28 @@ layout: default
 </div>
 
 <div class="category">
+  <h2>Bitcoin Conceptual Foundations</h2>
+  <div class="category-content">
+    {% for foundation in site.foundations reversed %}
+      <div class="content-piece">
+        <h3><a href="{{ foundation.url }}">{{ foundation.title }}</a></h3>
+      </div>
+    {% endfor %}
+  </div>
+</div>
+
+<div class="category">
+  <h2>Bitcoin Superuser</h2>
+  <div class="category-content">
+    {% for superuser in site.superuser reversed %}
+      <div class="content-piece">
+        <h3><a href="{{ foundation.url }}">{{ superuser.title }}</a></h3>
+      </div>
+    {% endfor %}
+  </div>
+</div>
+
+<div class="category">
   <h2>Essays</h2>
   <div class="category-content">
     {% for essay in site.essays reversed %}

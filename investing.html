@@ -7,7 +7,7 @@ layout: default
   <h2>Investing</h2>
   <p>In-depth investment analyses of publicly traded companies in the Bitcoin ecosystem.</p>
   <div class="category-content">
-    {% for investment in site.investing %}
+    {% for investment in site.investing reversed %}
       <div class="content-piece">
         <h3><a href="{{ investment.url }}">{{ investment.title }}</a></h3>
       </div>
