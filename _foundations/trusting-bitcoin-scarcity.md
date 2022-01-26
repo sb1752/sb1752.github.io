@@ -1,5 +1,7 @@
 ---
 title: Trusting Bitcoin's Scarcity
+summary: How can we trust that the total supply of Bitcoin will be capped at 21 million? Let's discuss Bitcoin and dive into some code.
+image: get-block-subsidy.png
 layout: post
 date: 2022-01-25
 ---
@@ -22,7 +24,7 @@ The nodes in aggregate form a peer to peer network. If a code update is made tha
 
 This leaves another question. Can the consensus change? What if the distributed network of nodes decide to accept a change to the 21 million supply cap? It’s possible, but there is no reason to believe this will happen anytime soon for two reasons. One is ideological. People, such as myself, participate in Bitcoin because we align with the vision of a disinflationary monetary system as a superior alternative to the inflationary fiat system that exists today, regardless of how economists. The other reason has to do with self-interest. Bitcoiners are not incentivized to inflate away their own wealth by distributing more Bitcoin.
 
-Today, there are thousands of Bitcoin full node operators all over the world. The network is permission-less and therefore anyone can join and run a node. There are many services such as Umbrel that make running a full node fairly effortless. As a full node operator myself, I take it as my responsibility to pay attention to the code changes that materially impact the direction and goals of Bitcoin. You can be sure I’m paying attention to something as critical as the total supply. So, as an exercise to clear up any lingering doubts and empower you to confirm this for yourself, let’s take a look at the Bitcoin core codebase and verify the 21 million supply cap.
+Today, there are thousands of Bitcoin full node operators all over the world. The network is permission-less and therefore anyone can join and run a node. There are many services such as <a href="https://getumbrel.com/" target="_blank">Umbrel</a> that make running a full node fairly effortless. As a full node operator myself, I take it as my responsibility to pay attention to the code changes that materially impact the direction and goals of Bitcoin. You can be sure I’m paying attention to something as critical as the total supply. So, as an exercise to clear up any lingering doubts and empower you to confirm this for yourself, let’s take a look at the Bitcoin core codebase and verify the 21 million supply cap.
 
 ---
 
@@ -65,7 +67,7 @@ Let's skip the next part checking whether the halvings is greater than 64 for no
 CAmount nSubsidy = 50 * COIN;
 ~~~
 
-The subsidy is calculated in Satoshis instead of whole Bitcoin. `COIN` is defined in <a href="https://github.com/bitcoin/bitcoin/blob/623745ca74cf3f54b474dac106f5802b7929503f/src/consensus/amount.h#L15">this file</a> and is defined as 100,000,000. A Satoshi is the smallest unit of 1 Bitcoin, which is comprised of 100,000,000 Satoshis. For example, if 1 Bitcoin today is worth $35,000, then 1 Satoshi is worth $0.00035. The community shorthand for this is Sats. 
+The subsidy is calculated in Satoshis instead of whole Bitcoin. `COIN` is defined in <a href="https://github.com/bitcoin/bitcoin/blob/623745ca74cf3f54b474dac106f5802b7929503f/src/consensus/amount.h#L15" target="_blank">this file</a> and is defined as 100,000,000. A Satoshi is the smallest unit of 1 Bitcoin, which is comprised of 100,000,000 Satoshis. For example, if 1 Bitcoin today is worth $35,000, then 1 Satoshi is worth $0.00035. The community shorthand for this is Sats. 
 
 Finally, let's move on to the last line modifying the `nSubsidy`.
 
