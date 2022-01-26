@@ -7,3 +7,5 @@ collections:
     output: true
 
 exclude: ['README.md', 'Gemfile.lock', 'Gemfile']
+
+url: https://sb1752.github.io
