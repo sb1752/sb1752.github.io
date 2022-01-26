@@ -7,7 +7,7 @@ layout: default
   <h2>Coding</h2>
   <p>Documenting my journey wrangling with the Rust programming language and contributing to open source Bitcoin projects.</p>
   <div class="category-content">
-    {% for code in site.coding %}
+    {% for code in site.coding reversed %}
       <div class="content-piece">
         <h3><a href="{{ code.url }}">{{ code.title }}</a></h3>
       </div>

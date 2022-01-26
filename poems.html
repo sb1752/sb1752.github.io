@@ -6,7 +6,7 @@ layout: default
 <div class="category">
   <h2>Poetry</h2>
   <div class="category-content">
-    {% for poem in site.poems %}
+    {% for poem in site.poems reversed %}
       <div class="content-piece">
         <h3><a href="{{ poem.url }}">{{ poem.title }}</a></h3>
       </div>
