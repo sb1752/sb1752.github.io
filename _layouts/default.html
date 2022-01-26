@@ -2,6 +2,16 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
+
+    <!-- Social Media Meta Tags -->
+    <meta name="twitter:card" content="{{page.summary}}" />
+    <meta name="twitter:creator" content="@shaanbatra" />
+    <meta property="og:url" content="{{page.url | absolute_url}}" />
+    <meta property="og:title" content="{{page.title}}" />
+    <meta property="og:description" content="{{page.summary}}" />
+    {% if page.image %}
+      <meta property="og:image" content="{{site.url}}/assets/images/{{page.image}}" />
+    {% endif %}
     <title>{{ page.title }}</title>
     <link rel="stylesheet" href="/assets/css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600&display=swap" rel="stylesheet">
