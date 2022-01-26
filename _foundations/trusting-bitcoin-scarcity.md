@@ -1,6 +1,6 @@
 ---
 title: Trusting Bitcoin's Scarcity
-summary: How can we trust that the total supply of Bitcoin will be capped at 21 million? Let's discuss Bitcoin and dive into some code.
+summary: How can we trust that the total supply of Bitcoin will be capped at 21 million? Let's discuss how Bitcoin works and verify it for ourselves.
 image: get-block-subsidy.png
 layout: post
 date: 2022-01-25
