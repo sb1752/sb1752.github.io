@@ -9,8 +9,9 @@
     <meta property="og:url" content="{{page.url | absolute_url}}" />
     <meta property="og:title" content="{{page.title}}" />
     <meta property="og:description" content="{{page.summary}}" />
-    <meta property="og:image" content="{{site.base_url}}/assets/images/{{page.image}}" />
-
+    {% if page.image %}
+      <meta property="og:image" content="{{site.base_url}}/assets/images/{{page.image}}" />
+    {% endif %}
     <title>{{ page.title }}</title>
     <link rel="stylesheet" href="/assets/css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600&display=swap" rel="stylesheet">
