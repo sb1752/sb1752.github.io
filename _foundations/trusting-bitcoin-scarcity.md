@@ -8,7 +8,7 @@ date: 2022-01-25
 
 How can we trust that the total supply of Bitcoin will be capped at 21 million? This comes up fairly often as a criticism from prominent businessmen, journalists and economists. Can’t the developers simply change it? Can’t it be hacked? Who even reads the algorithms? How would you know if it did change? Ironically, Bitcoin’s core ethos encourages this kind of skeptical thinking, at least when it comes from a place of genuine curiosity. A common saying in the community is “Don’t trust. Verify.” So let’s explore these questions further and provide you with the knowledge and tools to verify this for yourself.
 
-In my discussions with people, I have found that there are two fundamental misconceptions that underlie this concern about scarcity. The first is misunderstanding the difference between closed source and open source code. The second is misunderstanding the difference between the client-server model and a distributed peer-to-peer network. Though people have varying degrees of understanding about how Bitcoin works, let’s start with the most basic misconception that I tend to see people have.
+In my discussions with people, I have found that there are two fundamental misconceptions that underlie this concern about scarcity. The first is not knowing the difference between closed source and open source code. The second is not knowing the difference between a client-server model and a distributed peer-to-peer network. Though people have varying degrees of understanding about how Bitcoin works, let’s start with the most basic misconception that I tend to see people have.
 
 When we say Bitcoin is open-source, this means that all the code - including the calculation of Bitcoin’s supply - is written, maintained and tested in public, available for anyone to see. This means everyone has access to the codebase. This doesn’t mean everyone knows how to read it of course. A certain amount of programming knowledge is required. But learning enough to follow along, especially just the critical parts of the codebase, is actually not that hard as I’ll show at the bottom of this post. One can also pay attention to discussions among developers in the community publicly debating the real-world implications of major code changes.
 
@@ -20,7 +20,7 @@ The notion of “users” here is a faulty mental model, but is perfectly unders
 
 Bitcoin, however, is not based on a client-server model. It’s a peer to peer distributed network. Instead of clients and centralized servers, there are only independent nodes. There is no central server where data is retrieved from. Instead, every node runs the software that is written by Bitcoin developers and therefore every node has full access to the code. And the data - which in this case is the entire blockchain of transactions - is stored separately on each individual node. In other words, every node has a copy of the complete codebase and the full blockchain data.
 
-The nodes in aggregate form a peer to peer network. If a code update is made that is not supported by the network participants, node operators can choose not to run that software update on their node. If enough participants reject the update, the network continues to function as it did before, only accepting software updates that nodes agree to. **Bitcoin’s rules therefore are determined by the consensus of a globally distributed network of nodes**. No one individual entity, neither the developers nor the miners, can make any changes unilaterally. This is what Bitcoiners mean when we say it is decentralized. The network functions according to the demands of the network in totality. There are no rulers. This is, again, a very radical concept and nothing like it has ever existed before in history. 
+The nodes in aggregate form a peer to peer network. If a code update is made that is not supported by the network participants, node operators can choose not to run that software update on their node. If enough participants reject the update, the network continues to function as it did before, only accepting software updates that nodes agree to. **Bitcoin’s rules therefore are determined by the consensus of a globally distributed network of nodes**. No one individual entity, neither the developers nor the miners, can make any changes unilaterally. This is what Bitcoiners mean when we say it is decentralized. The network functions according to the demands of the network in totality. There are no rulers.
 
 This leaves one more question. Can the consensus change? What if the distributed network of nodes decide to accept a change to the 21 million supply cap? It’s possible, but there is no reason to believe this will happen anytime soon for two reasons. One is ideological. People, such as myself, participate in Bitcoin because we align with the vision of a disinflationary monetary system as a superior alternative to the inflationary fiat system that exists today. The other reason has to do with self-interest. Bitcoiners are not incentivized to inflate away their own wealth by distributing more Bitcoin.
 
@@ -67,7 +67,7 @@ Let's skip the next part checking whether the halvings is greater than 64 for no
 CAmount nSubsidy = 50 * COIN;
 ~~~
 
-The subsidy is calculated in Satoshis instead of whole Bitcoin. `COIN` is defined in <a href="https://github.com/bitcoin/bitcoin/blob/623745ca74cf3f54b474dac106f5802b7929503f/src/consensus/amount.h#L15" target="_blank">this file</a> and is defined as 100,000,000. A Satoshi is the smallest unit of 1 Bitcoin, which is comprised of 100,000,000 Satoshis. For example, if 1 Bitcoin today is worth $35,000, then 1 Satoshi is worth $0.00035. The community shorthand for this is Sats. 
+The subsidy is calculated in Satoshis instead of whole Bitcoin. `COIN` is defined in <a href="https://github.com/bitcoin/bitcoin/blob/623745ca74cf3f54b474dac106f5802b7929503f/src/consensus/amount.h#L15" target="_blank">this file</a> and is defined as 100,000,000. A Satoshi is the smallest unit of 1 Bitcoin, which is comprised of 100,000,000 Satoshis. For example, if 1 Bitcoin today is worth $35,000, then 1 Satoshi is worth $0.00035. The community shorthand for this is Sats. So this line is simply translating the 50 Bitcoin to the Sats equivalent.
 
 Finally, let's move on to the last line modifying the `nSubsidy`.
 
@@ -77,7 +77,7 @@ nSubsidy >>= halvings;
 
 You'll notice a unique operator here which you likely haven't seen before, `>>=`. This is known as a bitwise operation. This is a bit too technical for this blog post, but what this does is convert the subsidy number to binary format and then does an operation by which it "shifts" bits by the number of halvings. This is the mathematical equivalent of dividing by the number 2, three times. Or the same as dividing by 2^3 which is 8. Essentially we divide the initial block subsidy of 50 bitcoin by 2 for every halving cycle to calculate the current block subsidy. 50/8 = 6.25.
 
-Ok now that we understand this code a little better, how do we derive the 21 million number? From here, it’s just math. The total amount of bitcoin is the sum of all block subsidies over time:
+Ok now that we understand this code a little better, where does the 21 million number come from? This is simply derived mathematically based on the sum of all block subsidies over time:
 
 ~~~
 210,000*50 + 210,000*25 + 210,000*12.5 + … + 210,000* (50/(2^32))
@@ -88,7 +88,7 @@ Which is the equivalent of:
 210,000 * ( 50 + 25 + 12.5 + 6.25 + … + (50/(2^32)) )
 ~~~
 
-What does the set in parenthesis equal? We can calculate it programmatically or by using a spreadsheet. Or we can approximate it using a <a href="https://en.wikipedia.org/wiki/Geometric_series" target="_blank">geometric series</a>. The geometric series formula tells us that this is roughly the same as `a / (1-r)` where a is the initial number and r is the ratio (0.5). Therefore the set in parenthesis equals `50 / (1-0.5)` or `100`. And `100 * 210,000 = 21 million`! We’ve confirmed the supply cap! In actuality, the number is slightly less than this since we just did an approximation which assumes an infinite series.
+What does the set in parenthesis equal? We can calculate it programmatically or by using a spreadsheet. But we can also approximate it using a <a href="https://en.wikipedia.org/wiki/Geometric_series" target="_blank">geometric series</a>. The geometric series formula tells us that this is roughly the same as `a / (1-r)` where a is the initial number (50) and r is the ratio (0.5 since they are being repeatedly halved). Therefore the set in parenthesis equals `50 / (1-0.5)` or `100`. And `100 * 210,000 = 21 million`! We’ve confirmed the supply cap! In actuality, the number is slightly less than this since we just did an approximation which assumes an infinite series.
 
 Let's revisit that check that we skipped above.
 ~~~c++
@@ -96,11 +96,11 @@ Let's revisit that check that we skipped above.
         return 0;
 ~~~
 
-Here, the subsidy reward is being forced to 0 after the 64th halving. The reason for this has to do with the implementation of the bitwise shift-by operation. After 64, shifting by 65 bits is the equivalent to shifting by 1 bit. A fix for this was introduced in 2014 <a href="https://github.com/bitcoin/bitcoin/pull/3842" target="_blank">https://github.com/bitcoin/bitcoin/pull/3842</a>. Before that fix, what this meant was that after around 250 years, the Bitcoin network would begin issuing new Bitcoin again which would break the 21 million hard cap![^3].
+Here, the subsidy reward is being forced to 0 after the 64th halving. The reason for this has to do with the implementation of the bitwise shift-by operation. After 64, shifting by 65 bits is the equivalent to shifting by 1 bit. What this means is that after around 250 years and after the network has no longer issued Bitcoin since the 32nd halving, it would begin issuing new Bitcoin again which would break the 21 million hard cap![^3]. So we have to force the reward to be 0 after that point. A fix for this was introduced in 2014 <a href="https://github.com/bitcoin/bitcoin/pull/3842" target="_blank">https://github.com/bitcoin/bitcoin/pull/3842</a>.
 
-As a Bitcoin node operator, I am paying close attention to any changes to these numbers and formulas, such as the `nSubsidyHalvingInterval` or any change to the bit shift operation, or any change to this function that calculates the block subsidy. Now you can verify it for yourself as well. 
+As a Bitcoin node operator, I pay close attention to any major changes to these numbers, formulas and files. These are known as "consensus-breaking changes" and are a pretty big deal and closely monitored by all participants in Bitcoin. So it's important that we're aware of them and whether they are being changed. 
 
-Hopefully, you were able to follow along, have a better understanding of how Bitcoin works and can even verify the 21 million supply cap for yourself. If this was helpful or confusing or if you have any questions, feel free to let me know on Twitter: <a href="https://twitter.com/shaanbatra" target="_blank">@shaanbatra</a>. 
+Hopefully, you were able to follow along, have a better understanding of how Bitcoin works and can even verify the 21 million supply cap for yourself. If this was helpful or if you have any questions, feel free to let me know on Twitter: <a href="https://twitter.com/shaanbatra" target="_blank">@shaanbatra</a>. 
 
 [^1]: This is a very simplistic explanation of the mining process which is often misunderstood and considered unnecessary and even harmful to the environment. However, this process is in fact essential to the functioning of the Bitcoin network. Real-world energy consumption offers the perfect balance of security and decentralization required to ensure Bitcoin is a viable long-term store of value. I will be writing more about how the mining process works and why it is essential in another post. 
 
