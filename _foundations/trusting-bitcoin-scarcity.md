@@ -6,7 +6,7 @@ layout: post
 date: 2022-01-25
 ---
 
-How can we trust that the total supply of Bitcoin will be capped at 21 million? This comes up fairly often as a criticism from prominent businessmen, journalists and economists. Can’t the developers simply change it? Can’t it be hacked? Who even reads the algorithms? How would you know if it did change? Ironically, Bitcoin’s core ethos encourages this kind of skeptical thinking, at least when it comes from a place of genuine curiosity. A common saying in the community is “Don’t trust. Verify.” So let’s explore these questions further and provide you with the knowledge and tools to verify this for yourself.
+How can we trust that the total supply of Bitcoin will be capped at 21 million? This comes up fairly often as a criticism. Can’t the developers simply change it? Can’t it be hacked? Who even reads the algorithms? How would you know if it did change? Ironically, Bitcoin’s core ethos encourages this kind of skeptical thinking, at least when it comes from a place of genuine curiosity. A common saying in the community is “Don’t trust. Verify.” So let’s explore these questions further and provide you with the knowledge and tools to verify this for yourself.
 
 In my discussions with people, I have found that there are two fundamental misconceptions that underlie this concern about scarcity. The first is not knowing the difference between closed source and open source code. The second is not knowing the difference between a client-server model and a distributed peer-to-peer network. Though people have varying degrees of understanding about how Bitcoin works, let’s start with the most basic misconception that I tend to see people have.
 
