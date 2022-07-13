@@ -6,13 +6,13 @@ layout: default
 <div class="category">
   <h2>Coding</h2>
   <p>Documenting my journey grappling with the Rust programming language and contributing to open source Bitcoin projects.</p>
-  <p>Currently: <a href="https://github.com/sb1752/command-line-rust-solutions" target="_blank">Learning by writing CLI programs in Rust</a></p>
 
   <div class="category-content">
-    {% for code in site.coding reversed %}
       <div class="content-piece">
-        <h3><a href="{{ code.url }}">{{ code.title }}</a></h3>
+        <h3><a href="https://github.com/sb1752/rust-bitcoin-tx-parser" target="_blank">Writing a Bitcoin raw transaction parser in Rust</a></h3>
       </div>
-    {% endfor %}
+      <div class="content-piece">
+        <h3><a href="https://github.com/sb1752/command-line-rust-solutions" target="_blank">Writing CLI programs in Rust</a></h3>
+      </div>
   </div>
 </div>
