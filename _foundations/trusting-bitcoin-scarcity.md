@@ -53,7 +53,7 @@ CAmount GetBlockSubsidy(int nHeight, const Consensus::Params& consensusParams)
 }
 ~~~
 
-We can see here that first we calculate the halvings by taking the `nheight` and dividing that by the `consensusParams.nSubsidyHalvingInterval`. The `nheight` refers to the number of the block at the top of the blockchain. Since every block increments this number by 1, this number effectively tells us how many blocks there are in total in the chain. The subsidy halving interval is a constant with a value that can be found here: <a href="https://github.com/bitcoin/bitcoin/blob/master/src/chainparams.cpp#L67" target="_blank">https://github.com/bitcoin/bitcoin/blob/master/src/chainparams.cpp#L67</a>. 
+We can see here that first we calculate the halvings by taking the `nheight` and dividing that by the `consensusParams.nSubsidyHalvingInterval`. The `nheight` refers to the number of the block at the top of the blockchain. Since every block increments this number by 1, this number effectively tells us how many blocks there are in total in the chain. The subsidy halving interval is a constant with a value that can be found here: <a href="https://github.com/bitcoin/bitcoin/blob/160d23677ad799cf9b493eaa923b2ac080c3fb8e/src/kernel/chainparams.cpp#L77" target="_blank">https://github.com/bitcoin/bitcoin/blob/160d23677ad799cf9b493eaa923b2ac080c3fb8e/src/kernel/chainparams.cpp#L77</a>. 
 
 ~~~c++
 consensus.nSubsidyHalvingInterval = 210000;
