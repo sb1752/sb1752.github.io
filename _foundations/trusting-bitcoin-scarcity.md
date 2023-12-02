@@ -36,7 +36,7 @@ Something to mention before we dive in is that the 21 million number as the tota
 
 Remember, Bitcoin is disinflationary meaning new Bitcoin periodically enters the system but that new amount decreases over time. Bitcoin is programmed such that every 210,000 blocks, the amount of Bitcoin issued as an incentive to miners is halved. Since a block is mined roughly every 10 minutes, 210,000 blocks equates to about four years (6 blocks an hour * 24 hours a day * 365 days a year * 4 years = roughly 210,000). Therefore every four years, Bitcoin’s block subsidy is halved. In the first four years of operation, the amount of Bitcoin issued to miners in each block was 50. Today, the amount of Bitcoin issued per block is 6.25. It went from 50 to 25 to 12.5 to 6.25. We are in the third halving cycle. After the 32nd halving, the Bitcoin reward goes to zero[^2].
 
-With this in mind, let's take a look at the `GetBlockSubsidy` function in Bitcoin's code which can be found here: <a href="[https://github.com/bitcoin/bitcoin/blob/master/src/validation.cpp#L1667](https://github.com/bitcoin/bitcoin/blob/master/src/validation.cpp#L1667)" target="_blank">https://github.com/bitcoin/bitcoin/blob/master/src/validation.cpp#L1401</a>.
+With this in mind, let's take a look at the `GetBlockSubsidy` function in Bitcoin's code which can be found here: <a href="https://github.com/bitcoin/bitcoin/blob/master/src/validation.cpp#L1667" target="_blank">https://github.com/bitcoin/bitcoin/blob/master/src/validation.cpp#L1667</a>.
 
 ~~~c++
 CAmount GetBlockSubsidy(int nHeight, const Consensus::Params& consensusParams)
