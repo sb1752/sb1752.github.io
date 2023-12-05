@@ -100,7 +100,7 @@ Here, the subsidy reward is being forced to 0 after the 64th halving. The reason
 
 As a Bitcoin node operator, I pay close attention to any major changes to these numbers, formulas and files. These are known as "consensus-breaking changes" and are a pretty big deal and closely monitored by all participants in Bitcoin. So it's important that we're aware of them and whether they are being changed. 
 
-Hopefully, you were able to follow along, have a better understanding of how Bitcoin works and can even verify the 21 million supply cap for yourself. If this was helpful or if you have any questions, feel free to let me know on Twitter: <a href="https://twitter.com/shaanbatra" target="_blank">@shaanbatra</a>. 
+Hopefully, you were able to follow along, have a better understanding of how Bitcoin works and can even verify the 21 million supply cap for yourself.
 
 [^1]: This is a very simplistic explanation of the mining process which is often misunderstood and considered unnecessary and even harmful to the environment. However, this process is in fact essential to the functioning of the Bitcoin network. Real-world energy consumption offers the perfect balance of security and decentralization required to ensure Bitcoin is a viable long-term store of value. I will be writing more about how the mining process works and why it is essential in another post. 
 
