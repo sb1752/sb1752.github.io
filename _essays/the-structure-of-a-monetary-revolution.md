@@ -1,0 +1,99 @@
+---
+title: The Structure of a Monetary Revolution
+layout: post
+date: 2023-04-26
+---
+
+Allen Farrington poses a thought provoking question in his essay, *Wittgenstein’s Money*. Referencing a popular quote by the Wittgenstein[^1], he asks, 
+“*What would it seem like if it did seem like a global, digital, sound, open source, programmable money was monetizing from absolute zero?*” He points out that Bitcoin’s critics are blinded by the semantics of the existing paradigm. For example, “*Bitcoin is too volatile, therefore it cannot be serve as a store of value or medium of exchange.*” Critics argue that any type of money simply cannot be volatile, by definition. But this definition can only apply to the status quo in steady-state. It is neither useful nor accurate when examining paradigms in competition.
+
+From the standpoint of the existing monetary paradigm, Bitcoin is just another asset situated within the fiat system for the sole purpose of acquiring more fiat wealth. Its exchange rate volatility and speculative trading activity seem to support this perspective. However, it’s long-term trajectory, growing adoption, ecosystem development, and fundamental properties all suggest a different possibility. Is Bitcoin[^2] just another asset bubble or is it a legitimate revolution? Let us pose Wittgenstein’s question another way. What would it look like if it did look like a revolution in money were occurring? This requires a deeper understanding of the revolutionary process, in which one paradigm supplants another.
+
+##  The Structure of Scientific Revolutions
+A framework that offers a great starting point comes from the hard sciences. Thomas Kuhn was considered one of the most influential philosophers of science of the twentieth century and published his masterpiece, The Structure of Scientific Revolutions, in 1962[^3]. His work may seem irrelevant to our analysis, but it turns out that he had an impact far beyond his domain as he essentially dealt with human nature and the institutions we create and uphold to guide the broader community[^4]. In his book Kuhn laid out the nature of scientific development and dispensed with the idea of gradual progress. Instead, he showed that science evolves according to a cyclical pattern in which periods of “normal science” are punctuated by dramatic revolutions.
+
+When science operates “normally” it works under a particular paradigm with a shared set of fundamental assumptions. Scientists at this stage work predominantly as “puzzle solvers” seeking greater precision and better articulation of theory rather than challenging the underlying assumptions or exploring novel theories. Over time, however, anomalies appear that cannot be explained by the standard paradigm. They are initially ignored, but eventually grow in number or significance until the situation culminates in a crisis. The stage is then set for revolution and a serious battle begins between the old guard that desperately cling to the existing paradigm and the new and growing batch of revolutionaries.
+
+This may seem political and even irrational, but scientists are only human and often reject new ideas despite their promise. One reason is that they have may have built a successful career over decades under a particular paradigm. It can be challenging to confront the possibility that one’s life’s work is invalidated. Another reason has to do with the type of scientist that dominates the field in a period of normal science, namely specialists whose strengths do not include generalist curiosity or creative insight. However, Kuhn pointed out that normal science cannot proceed if it is constantly distracted by new ideas. Therefore, this resistance is viewed as an essential aspect of the structure. After all, it is with the help of normal science that anomalies are clearly exposed, which in turn become ammunition for the proponents of a competing theory.
+
+Kuhn noticed a parallel between his framework and political revolutions. As he wrote in Section IX,
+
+> Political revolutions are inaugurated by a growing sense, often restricted to a segment of the community, that existing institutions have ceased adequately to meet the problems posed by an environment that they have in part created…In both political and scientific development the sense of malfunction that can lead to crisis is prerequisite for revolution.
+
+This idea that revolutions are precipitated by a crisis is an essential feature of his structure. And this makes intuitive sense. After all, new ideas can only be taken seriously when the old ones are exposed as severely lacking. As Kuhn wrote, “*The significance of crises is the indication they provide that an occasion for retooling has arrived.*”
+
+Building on the parallel between scientific and political revolutions, Kuhn observed how transformative and destabilizing a revolution can be.
+
+> Political revolutions aim to change political institutions in ways that those institutions themselves prohibit. Their success therefore necessitates the partial relinquishment of one set of institutions in favor of another, and in the interim, society is not fully governed by institutions at all.
+
+Because of this conflict and the way it typically plays out, revolutionaries can be mistakenly perceived as destructive agents that intentionally subvert the harmonious functioning of a community for perhaps selfish or malevolent reasons. What is actually occurring, however, is a transition to a new paradigm which can be a tumultuous period that triggers a great deal of fear and uncertainty.
+
+Another challenging aspect of this clash is the difficulty of communication between groups in competing paradigms. Kuhn writes that “Each group uses its own paradigm to argue in that paradigm’s defense.” He later goes on to say,
+
+> In the partially circular arguments that regularly result, each paradigm will be shown to satisfy more or less the criteria it dictates for itself and to fall short of a few of those dictated by its opponent.
+
+This circular logic makes it very challenging to express ideas and make persuasive arguments between rigid camps operating under different paradigms. This led Kuhn (along with his colleague Feyerabend) to introduce the idea of incommensurability, in which he suggested that “*there are significant limits to what the proponents of different theories can communicate to one another*”[^5].
+
+However, a conversion process does occur over time, likely because the crisis persists and alternative viewpoints need to be seriously considered. As to how this plays out is difficult to predict. Some distinguished scientists, such as Darwin and Max Planck, have remarked that the old guard must simply die out so that a new generation of more open-minded scientists can take their place. This is not always the case though. Kuhn did not have a framework here, but concluded that “*The transfer of allegiance from paradigm to paradigm is a conversion experience that cannot be forced.*” Interestingly, he found that the most frequent and effective argument was the claim that the new paradigm can solve the problems that led the old one to crisis.
+
+## Application to Bitcoin
+Taking all of these ideas together, let’s examine how they map on to the origin and evolution of Bitcoin.
+
+### Birthed in Crisis
+
+The timing of Bitcoin’s introduction to the public is noteworthy. This was clearly not an idea born in a vacuum for mere entertainment, but appears at a time when the entire global financial system was in crisis. Satoshi Nakamoto’s first forum post appeared on February 11, 2009, only five months after Lehman Brothers collapsed[^6]. The post itself was in direct response to the system that produced the crisis. As Satoshi wrote, “The root problem with conventional currency is all the trust that’s required to make it work. The central bank must be trusted not to debase the currency, but the history of fiat currencies is full of breaches of that trust.” And the first bitcoin block mined by Satoshi, known as the Genesis block, had a message embedded in it, a headline from a British newspaper, “The Times 03/Jan/2009 Chancellor on brink of second bailout for banks”[^7].
+
+### Fiat Anomalies and Crises
+
+There are undoubtedly a growing number of problems with the current system that cannot seemingly be contained or resolved. Unsustainable wealth inequality, political polarization, inflation, stagflation, banking crises, currency crises, and even the rapid rise of physical and mental illnesses. From the standpoint of the fiat system, these are all seen to be independent and unrelated issues. The blame is also frequently placed on the victims of these issues and rarely on the public and private institutions that control and mediate various political and financial processes. Little thought is given to the possibility that these anomalies may be interrelated and are symptoms of the underlying fiat structure itself. Proponents of Bitcoin frequently point to these phenomenon and make the argument, as Kuhn would expect of a competing paradigm, that such anomalies that have led to our modern crises would not occur under a Bitcoin standard[^8].
+
+### Incommensurability
+
+Those that reason from the fiat paradigm largely misunderstand Bitcoin because they start with different assumptions, one of which is that new technologies are necessarily subordinate structures of the fiat system. From this perspective, Bitcoin is viewed as a superfluous asset class whose only function is gambling or circumventing the law and therefore unnecessarily consumes energy. Bitcoin proponents on the other hand see it as a parallel system and competing paradigm that aims to resolve the many problems produced by fiat. It challenges the very premise of centralized control and persistent monetary interference and argues that this basic structure is inherently flawed. Bitcoin’s value proposition is not in its “use cases” within the fiat structure but in its existence as an alternative paradigm.
+
+As a result of this misunderstanding, it is clear why so many of the criticisms against Bitcoin are not as effective as critics would hope. For example, Bitcoin is often condemned for supporting criminal activity or for consuming large amounts of energy. If it were merely an investment asset, these criticisms might have some validity. But as a competing paradigm, it is not given a fair assessment. Bitcoin’s criminal usage would have to be compared to the criminal activity of the fiat system. Likewise, Bitcoin’s energy consumption would have to be compared to the energy consumption and energy mix required to support fiat currencies via the banking systems and the military apparatuses[^9]. One would also have to take into account the net new benefits to society a Bitcoin standard can offer that are not available within the current paradigm[^10].
+
+This difficulty in communication between paradigms is made all the more challenging by the technical complexity of the Bitcoin network, which requires a significant education on advanced subjects. A good example of this is the argument sometimes made by critics that Bitcoin’s 21 million supply limit cannot be guaranteed as the developers can “simply change the code”. This fallacy comes from a fiat-based assumption that new technologies emerge from centralized entities such as corporations and can therefore be centrally manipulated. An education on open-source software development, cryptography and distributed networks would be required to expose the flaw in this criticism[^11]. A further education on the history of Bitcoin’s development would prove that such consensus changes to Bitcoin’s rules have already occurred and have resulted in alternative networks, leaving the original and dominant one intact[^12].
+
+### Conversion Process
+
+What is most remarkable about Bitcoin’s trajectory is not the incredible volatility, but the growth of its firm believers over time. What was once a technical curiosity traded on the fringes of society has developed into an asset class of global macroeconomic significance only 14 years later. While perhaps initially a means of circumventing the law with websites such as Silk Road, it has since gained significant traction as a legitimate store-of-value asset among many long-term believers, largely comprised of ordinary individuals around the world but also including some notable corporate CEOs, politicians, and even sitting presidents. Not only that, but many businesses and new technologies have sprouted on top of the Bitcoin network and have developed into a flourishing ecosystem.
+
+Critics may argue that it cannot serve as a store-of-value, but this is hard to reconcile with the fact that a growing number of proponents end up holding it for a long time, throughout periods of volatility and boom-bust cycles. Critics may also argue it is merely a means of gambling, but this is hard to reconcile with the fact that many individuals dedicate their lives contributing to the network with the creation of new businesses, the publication of books, papers and essays, and the continued development of the main protocol itself along with supporting technologies such as the Lightning network. Despite the countless times that Bitcoin has been declared “dead”, it seems to inevitably come roaring back and stabilize at a much higher exchange rate level[^13]. This makes sense when we understand it as a paradigm, rather than a typical asset bubble.
+
+### Resistance
+
+Critical attitudes towards Bitcoin today reflect the typical response to an emergent paradigm. Various politicians, pundits, economists and wealthy business leaders have claimed that Bitcoin is threatening to economic stability, bad for the environment, and financially harmful to retail investors. The incongruent combination of moralizing language and dismissive attitudes betray a deep-seated insecurity about the shifting monetary landscape. After all, if Bitcoin were merely a ponzi scheme, its critics could comfortably sit back, wait for the bubble to pop and simply say “I told you so” when it is over. However, the strong desire to control or ban it indicates a lack of confidence, a growing recognition of the power struggle between paradigms and a desperate appeal to authority in order to maintain the status quo.
+
+The hostility towards Bitcoin is better explained by teleology than by objective reasoning. Bitcoin’s harshest critics tend to benefit the most from the fiat system. For example, Warren Buffett, a well-known Bitcoin critic, has benefited enormously from the fiat system over the last 50+ years, which has disproportionately rewarded wealthy asset holders over wage earners. Many politicians, economists and banking executives have also built their careers manipulating the fiat system and profiting from it and are naturally less inclined to give up such power. There may also be individuals who stand opposed to fiat, but champion alternative solutions such as a Gold standard or another cryptocurrency and see it as incompatible with Bitcoin. In all of these cases, critics don’t reason with Bitcoin objectively, but instead selectively seek arguments that support their entrenched position.
+
+## Conclusion
+Let’s return to our version of Wittgenstein’s question. What would it look if a revolution in money were occurring? Well, it would look remarkably similar to Bitcoin’s trajectory over the last 14 years. We see it fall into the familiar structure of a revolution, with all the typical features — appearing at a time of crisis, challenging the system that produces the crisis, offering a new vision, arguing from a different worldview, and accumulating converts over time despite periods of volatility. One would be hard-pressed to overlay this framework on to the oft-cited Dutch tulip bubble that Bitcoin is so frequently compared to. Instead, Bitcoin’s development fits nicely into the pattern of the many successful scientific and political revolutions over the last few hundred years.
+
+It is very hard to predict the future of the monetary landscape. To what extent will Bitcoin coexist with fiat as a parallel system? To what extent will it replace it? What shape will adoption take from here? And how heated will the clash be between the competing camps? Some suggest that governments can easily ban Bitcoin. But as a global, decentralized grassroots movement, this won’t be as straightforward as opponents might hope. Even if draconian laws are passed, many Bitcoin proponents are prepared to practice civil disobedience and have the technological means of evading enforcement. If anything, the response to Bitcoin serves as a reminder that government is merely a social contract among citizens. If enough people wake up to the abuses of centralized authorities, they can always exercise their right to strip authorities of their power and replace them with new structures. This is the path of revolution. And the likely path of Bitcoin.
+
+[^1]:The popular quote by Wittgenstein referenced in Wittgenstein’s Money comes from an exchange that was first recounted by Wittgenstein’s student, Elizabeth Anscombe, in her book, An Introduction to Wittgenstein’s Tractatus (London, 1959). It goes as follows: "*I can illustrate the method from Wittgenstein’s later way of discussing problems. He once greeted me with the question: ‘Why do people say that it was natural to think that the sun went round the earth rather than that the earth turned on its axis? I replied: ‘I suppose, because it looked as if the sun went round the earth.’ ‘Well,’ he asked, ‘what would it have looked like if it had looked as if the earth turned on its axis?’*"
+
+[^2]: By Bitcoin, I am referring to the dominant Bitcoin network and not “blockchain” or “crypto” more generally, which I would not consider to be legitimate aspects of a monetary revolution. With few exceptions, they largely represent a fiat-paradigm misinterpretation and misappropriation of the Bitcoin movement.
+
+[^3]: [https://plato.stanford.edu/entries/thomas-kuhn/](https://plato.stanford.edu/entries/thomas-kuhn/)
+
+[^4]: [https://www.routledgehandbooks.com/doi/10.4324/9781315410098.ch6](https://www.routledgehandbooks.com/doi/10.4324/9781315410098.ch6)
+
+[^5]: [https://www.oxfordbibliographies.com/display/document/obo-9780195396577/obo-9780195396577-0022.xml](https://www.oxfordbibliographies.com/display/document/obo-9780195396577/obo-9780195396577-0022.xml)
+
+[^6]: [https://news.bitcoin.com/13-years-ago-today-satoshi-nakamoto-published-the-first-forum-post-introducing-bitcoin/](https://news.bitcoin.com/13-years-ago-today-satoshi-nakamoto-published-the-first-forum-post-introducing-bitcoin/)
+
+[^7]: [https://www.nasdaq.com/articles/the-genesis-block%3A-the-first-bitcoin-block](https://www.nasdaq.com/articles/the-genesis-block%3A-the-first-bitcoin-block)
+
+[^8]: [https://wtfhappenedin1971.com/](https://www.nasdaq.com/articles/the-genesis-block%3A-the-first-bitcoin-block)
+
+[^9]: Paper on Bitcoin’s Energy Efficiency: [https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4125499](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4125499)
+
+[^10]: This includes the paradigm-dependent value judgment that activity such as unaccountable government spending or the surveillance and censorship of citizens is also “criminal activity”, even if they are not expressly forbidden by law.
+
+[^11]: [https://sb1752.github.io/foundations/trusting-bitcoin-scarcity.html](https://sb1752.github.io/foundations/trusting-bitcoin-scarcity.html)
+
+[^12]: [https://river.com/learn/what-are-bitcoin-forks](https://river.com/learn/what-are-bitcoin-forks)
+
+[^13]: [https://99bitcoins.com/bitcoin-obituaries/](https://99bitcoins.com/bitcoin-obituaries/)
